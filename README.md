@@ -1,9 +1,17 @@
-# GTFObin_CLI_search
-utility that searches GTFObin's linux commands that allow privaledge escalation vulns for LOTL(living off the land). This lets you search commands from CLI and see if the command is on their catalogue, as well as returning command usage examples.
+
 
 # GTFOBins CLI Lookup Tool
 
-A Python-based CLI interface for searching and exploring GTFOBins directly from the terminal.
+This is a Python-based CLI interface for searching and exploring GTFOBins directly from the terminal.
+
+what is GTFObins? ->
+[GTFObins ]([url](https://gtfobins.org/))
+'''
+"GTFOBins is a curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems.
+The project collects legitimate functions of Unix-like executables that can be abused to get the f**k break out restricted shells, escalate or maintain elevated privileges, transfer files, spawn bind and reverse shells, and facilitate other post-exploitation tasks."
+'''
+GTFOBins is a joint effort by [Emilio Pinna]([url](https://x.com/norbemi)) and [Andrea Cardaci]([url](https://x.com/cyrus_and)), and many other [contributors]([url](https://github.com/GTFOBins/GTFOBins.github.io/graphs/contributors)).
+
 
 This tool allows you to:
 - Check if a command exists in GTFOBins
@@ -57,7 +65,7 @@ pip install requests beautifulsoup4
 
 Clone repository:
 
-git clone https://github.com/YOUR_USERNAME/GTFObin_CLI_search
+git clone https://github.com/prizmatik666/GTFObin_CLI_search
 cd GTFObin_CLI_search
 
 Run:
@@ -96,7 +104,7 @@ Provide path to:
 |------------|---------|
 | 1 command  | Full detailed output |
 | < 5 commands | Full output for each |
-| ΓëÑ 5 commands | Compact summary |
+| > 5 commands | Compact summary |
 | File input | Matching commands only |
 
 For large lists, the CLI displays a notice that full details are available in the saved .txt output.
