@@ -1,17 +1,5 @@
-
-
 # GTFOBins CLI Lookup Tool
-
 This is a Python-based CLI interface for searching and exploring GTFOBins directly from the terminal.
-
-what is GTFObins? ->
-[GTFObins ]([url](https://gtfobins.org/))
-'''
-"GTFOBins is a curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems.
-The project collects legitimate functions of Unix-like executables that can be abused to get the f**k break out restricted shells, escalate or maintain elevated privileges, transfer files, spawn bind and reverse shells, and facilitate other post-exploitation tasks."
-'''
-GTFOBins is a joint effort by [Emilio Pinna]([url](https://x.com/norbemi)) and [Andrea Cardaci]([url](https://x.com/cyrus_and)), and many other [contributors]([url](https://github.com/GTFOBins/GTFOBins.github.io/graphs/contributors)).
-
 
 This tool allows you to:
 - Check if a command exists in GTFOBins
@@ -21,19 +9,15 @@ This tool allows you to:
 - Export results to .txt files for later reference
 
 ---
-
 ## About GTFOBins
 
 This project is built on top of the work from:
-
 https://gtfobins.org/
-
 "GTFOBins is a joint effort by Emilio Pinna and Andrea Cardaci, and many other contributors."
 
 This CLI does not replace GTFOBins. It provides a terminal-based interface for faster access to their content.
 
 ---
-
 ## Features
 
 ### Lookup Modes
@@ -56,7 +40,6 @@ This CLI does not replace GTFOBins. It provides a terminal-based interface for f
 - Structured sections mirroring GTFOBins layout
 
 ---
-
 ## Installation
 
 Install dependencies:
@@ -66,6 +49,7 @@ pip install requests beautifulsoup4
 Clone repository:
 
 git clone https://github.com/prizmatik666/GTFObin_CLI_search
+
 cd GTFObin_CLI_search
 
 Run:
@@ -73,7 +57,6 @@ Run:
 python3 gtfo.py
 
 ---
-
 ## Usage
 
 ### Mode 1 Direct Input
@@ -89,7 +72,6 @@ Example:
 bash, python, awk
 
 ---
-
 ### Mode 2 File Input
 
 Provide path to:
@@ -97,7 +79,6 @@ Provide path to:
 - .csv file (comma-separated values)
 
 ---
-
 ## Output Behavior
 
 | Input Size | Behavior |
@@ -110,7 +91,6 @@ Provide path to:
 For large lists, the CLI displays a notice that full details are available in the saved .txt output.
 
 ---
-
 ## Advanced Usage
 
 by default, search results only show the 'unprivaledged' command examples in main result return
@@ -122,7 +102,6 @@ After a lookup, the user may optionally request:
 These are fetched only when selected to keep the main workflow fast.
 
 ---
-
 ## Saving Results
 
 The tool provides prompts to save:
@@ -135,7 +114,6 @@ Output files are saved as:
 <command>_gtfobins.txt
 
 ---
-
 ## Disclaimer
 
 This tool is intended for:
@@ -146,7 +124,6 @@ This tool is intended for:
 Do not use this tool as an informational resource to exploit systems without permission.
 
 ---
-
 ## Contributing
 
 This project complements GTFOBins and does not aim to replace it.
@@ -158,7 +135,6 @@ Potential contributions:
 - Output formatting improvements
 
 ---
-
 ## Keywords
 
 gtfobins cli  
@@ -168,7 +144,6 @@ sudo suid exploitation
 terminal gtfobins lookup  
 
 ---
-
 ## Roadmap
 
 - Interactive selection mode for large results
@@ -177,19 +152,16 @@ terminal gtfobins lookup
 - Text-based UI version
 
 ---
-
 ## Credit to GTFOBins for creating this helpful resource for the community!
-
+---
 GTFOBins creators:
-- Emilio Pinna
-- Andrea Cardaci
-- Community contributors
+- Emilio Pinna - https://x.com/norbemi
+- Andrea Cardaci - https://x.com/cyrus_and
+- Community contributors - https://github.com/GTFOBins/GTFOBins.github.io/graphs/contributors
+
 https://gtfobins.org/
 
-
-
 This project just provides a CLI interface to access their work more efficiently(for me at least, i make no claims of grandeur).
-
 ---
 ## Notes
 If you find this useful, consider contributing or supporting the original GTFOBins project.
